@@ -1,0 +1,45 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul {
+    background-color: rgb(218, 148, 62);
+    text-align: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid cornsilk;
+}
+.nav a{
+    color: aliceblue;
+}
+.nav a:hover{
+    background-color: violet;
+}
+@media screen and (min-width:600px){
+.nav li; {
+    display: inline
+}
+}
+.container .jumbotron{
+    margin: 10px;
+    text-align: center;
+    color: rgb(68, 68, 6);
+    text-decoration: double;
+    background-color: rgb(226, 206, 118);
+}
+.buttons{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+    
